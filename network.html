@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chapter 4 Networking &amp; The Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Global styles */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            color: #db8534;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #666;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2rem;
+            margin-bottom: 5rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e5e5e5;
+        }
+
+        
+    </style>
+</head>
+
+
+</head>
+<body>
+	<h1>Chapter 4 Networking & The Internet Definitions</h1>
+
+	
+	<table>
+        <tr>
+            <th><h2>Network Classifications</h2></th>
+            <td>Network classifications refer to the categorization of networks based on their size, scope, and purpose.</td>
+        </tr>
+		<tr>
+			<th>MAN</th>
+			<td>A metropolitan area network is a network that covers a geographic area larger than a LAN but smaller than a WAN.</td>
+		</tr>
+		<tr>
+			<th>WAN</th>
+			<td>A wide area network is a network that covers a large geographic area, typically spanning multiple cities, states, or even countries.</td>
+		</tr>
+	</table>
+
+
+	<table>
+		<tr>
+            <th><h2>Network Models</h2></th>
+            <td>Network models refer to the various models or frameworks that define how networks operate and communicate</td>
+        </tr>
+        <tr>
+			<th>Bus Network</th>
+			<td>A bus network is a network topology in which all devices are connected to a single communication line called the bus.</td>
+		</tr>
+		<tr>
+			<th>Star Network</th>
+			<td>A star network is a network topology in which all devices are connected to a central hub or switch.</td>
+		</tr>
+	</table>
+
+	
+	<table>
+        <tr>
+            <th><h2>Protocols</h2></th>
+            <td>Network models refer to the various models or frameworks that define how networks operate and communicate</td>
+        </tr>
+		<tr>
+			<th>CSNA/CD Ethernet</th>
+			<td>Carrier Sense Multiple Access/Collision Detection (CSMA/CD) is a networking protocol used in Ethernet networks to avoid collisions when two devices attempt to transmit data at the same time.</td>
+		</tr>
+		<tr>
+			<th>CSMA/CA Wifi</th>
+			<td>Carrier Sense Multiple Access/Collision Avoidance (CSMA/CA) is a networking protocol used in wireless networks to avoid collisions when two devices attempt to transmit data at the same time.</td>
+		</tr>
+	</table>
+
+	<table>
+		<tr>
+            <th><h2>Combining Networks</h2></th>
+            <td>Combining networks refers to the process of connecting multiple networks together to create a larger, more complex network.</td>
+        </tr>
+        
+        <tr>
+			<th>Repeater</th>
+			<td>A repeater is a networking device that amplifies and retransmits signals to extend the range of a network.</td>
+		</tr>
+		<tr>
+			<th>Bridge</th>
+			<td>A bridge is a networking device that connects two LANs or segments of a LAN to enable communication between them.</td>
+		</tr>
+		<tr>
+			<th>Switch</th>
+			<td>A switch is a networking device that connects devices on a LAN and directs traffic between them based on their MAC addresses.</td>
+		</tr>
+		<tr>
+			<th>Router</th>
+			<td>A router is a networking device that connects two or more networks and directs traffic</td></tr>
+            
+		<tr>
+			<th>Gateway</th>
+			<td>A networking device that connects two networks using different protocols, such as a LAN and a WAN.</td>
+		</tr>
+    </table>
+		
+    
+		<table>
+		<tr>
+            <th><h2>Client/server model</h2></th>
+            <td>The client/server model is a distributed computing architecture where a client makes requests to a server, and the server responds with data. In this model, the client is typically a user or an application that needs to access data or services, while the server is a computer or a group of computers that provide the requested data or services.</td>
+        </tr>
+        
+            <tr>
+			<th>P2p: peer-to-peer</th>
+			<td>A decentralized communications model in which each party has the same capabilities and either party can initiate a communication session.</td>
+		</tr>
+		<tr>
+			<th>Distributed system</th>
+			<td>A system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another.</td>
+		</tr>
+		<tr>
+			<th>Cloud computing</th>
+			<td>The on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.</td>
+		</tr>
+        </table>
+	    
+        
+        <table>
+		<tr>
+            <th><h2>Internet Addressing</h2></th>
+            <td>Internet addressing is the system of assigning unique numerical identifiers to every device connected to the internet. This system enables devices to communicate with each other over the internet by exchanging packets of data.</td>
+        </tr>
+
+        <tr>
+			<th>Tier 1</th>
+			<td>The highest level of Internet service providers, which have direct connections to the global Internet backbone.</td>
+		</tr>
+		<tr>
+			<th>Tier 2</th>
+			<td>Regional Internet service providers that connect to Tier 1 providers and smaller ISPs, and often provide services to a specific geographic area.</td>
+		</tr>
+		<tr>
+			<th>Tier 3</th>
+			<td>Local Internet service providers that connect to Tier 2 providers and provide Internet access to individual homes and businesses.</td>
+		</tr>
+        </table>
+		
+        
+        <table>
+           <tr>
+            <th><h2>IP address</h2></th>
+            <td>An IP (Internet Protocol) address is a unique numerical identifier assigned to every device that is connected to a computer network that uses the Internet Protocol for communication. It is used to identify and locate network devices, such as computers, servers, routers, and other networked equipment, on a network.            </td>
+           </tr>
+		<tr>
+			<th>ICANN</th>
+			<td>The Internet Corporation for Assigned Names and Numbers (ICANN) is a non-profit organization that is responsible for managing the Internet's domain name system (DNS).</td>
+		</tr>
+		<tr>
+			<th>DNS</th>
+			<td>The Domain Name System (DNS) is a hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network.</td>
+		</tr>
+		<tr>
+			<th>TLD</th>
+			<td>A top-level domain (TLD) is the last segment of a domain name, which follows the final dot in an Internet address. Examples of TLDs include .com, .edu, and .org.</td>
+		</tr>
+		<tr>
+			<th>Country-code TLDs</th>
+			<td>Country-code top-level domains (ccTLDs) are TLDs that are specifically reserved for use by countries or territories. Examples of ccTLDs include .us for the United States and .jp for Japan.</td>
+		</tr>
+		</table>
+<table>
+<tr>
+	<th><h2>Internet protocols</h2></th>
+	<td>Internet protocols are sets of rules and standards that define how devices on the Internet communicate with each other. Examples of Internet protocols include TCP/IP, HTTP, and FTP.</td>
+</tr>
+<tr>
+	<th>FTP</th>
+	<td>File Transfer Protocol (FTP) is a standard network protocol used to transfer files from one host to another over a TCP-based network, such as the Internet.</td>
+</tr>
+
+<tr>
+<th>HTTP</th>
+<td>Hypertext Transfer Protocol is the protocol used to transfer data over the World Wide Web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands. <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">(source)</a></td>
+</tr>
+
+<tr>
+    <th>SMTP</th>
+    <td>Simple Mail Transfer Protocol is a protocol used to send and receive email over the internet. It is a client-server protocol, which means that a client (such as an email program) sends a request to a server (an SMTP server) to send an email, and the server responds with a confirmation or an error message. SMTP is one of the oldest internet protocols and is still widely used today.</td></tr>
+</table>
+<table>
+ <tr>
+	<th><h2>World Wide Web</h2></th>
+	<td>
+    The World Wide Web is a system of interlinked hypertext documents accessed through the Internet. It was invented by British computer scientist Tim Berners-Lee in 1989 while working at CERN in Switzerland. <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">(source)</a>
+	</td>
+</tr>
+<tr>
+	<th>URL</th>
+	<td>A Uniform Resource Locator is a reference to a web resource that specifies its location on the Internet and the protocol for accessing it, such as HTTP or FTP. It consists of a protocol identifier, followed by a colon and two slashes, and then the resource's address. <a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator" target="_blank">(source)</a></td>
+</tr>
+              
+<tr>
+    <th>Client-side activities</th>
+    <td>Client-side activities refer to actions that take place on the user's device, such as rendering webpages, executing scripts, and managing user input.</td>
+</tr>
+              
+<tr>
+    <th>Server-side activities</th>
+    <td>Server-side activities refer to actions that take place on the web server, such as processing requests, accessing databases, and generating dynamic content.</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <th><h2>Internet four-layer software</h2></th>
+    <td>The Internet four-layer software refers to a conceptual model that divides the internet into four layers: the application layer, transport layer, network layer, and link layer.</td>
+</tr>
+              
+<tr>
+    <th>Application layer</th>
+    <td>The application layer is the top layer in the four-layer software model and includes protocols for specific applications, such as HTTP, FTP, and SMTP.</td>
+</tr>
+              
+<tr>
+    <th>Transport layer</th>
+    <td>The transport layer is responsible for managing data transport between applications and includes protocols such as TCP and UDP.</td>
+</tr>
+              
+<tr>
+    <th>Network layer</th>
+    <td>The network layer is responsible for routing data between networks and includes protocols such as IP.</td>
+</tr>
+              
+<tr>
+    <th>Link layer</th>
+    <td>The link layer is responsible for transmitting data between nodes on a network and includes protocols such as Ethernet and Wi-Fi.</td>
+</tr>
+</table>         
+<table> 
+<tr>
+    <th><h2>Internet is<h2></th>
+    <td>The internet is a global network of interconnected computers and devices that use standardized communication protocols to exchange data.</td>
+</tr>
+              
+<tr>
+    <th>Packet-switching network</th>
+    <td>A packet-switching network is a network that breaks data into packets and routes them through the network based on the destination address.</td>
+</tr>
+              
+<tr>
+    <th>Fault-tolerant</th>
+    <td>Fault-tolerant refers to the ability of a system to continue operating in the event of a hardware or software failure.</td>
+</tr>
+              
+<tr>
+    <th>Redundant</th>
+    <td>Redundant refers to the presence of multiple copies or instances of a system component to increase reliability and availability.</td>
+</tr>
+</table> 
+
+<table>       
+<tr>
+    <th><h2>Cybersecurity</h2></th>
+    <td>Cybersecurity refers to the practice of protecting internet-connected systems, including hardware, software, and data, from attack, damage, or unauthorized access.</td>
+</tr>
+              
+<tr>
+    <th>Malware</th>
+    <td>Malware is a term used to describe malicious software, including viruses, worms, Trojan horses, and spyware, designed to harm or exploit a system or its users.</td>
+</tr>
+    <th>Virus</th>
+    <td>A virus is a type of malware that is designed to replicate and spread itself to other computers.</td>
+</tr>
+<tr>
+    <th>Worm</th>
+    <td>A worm is a type of malware that can replicate itself and spread across a network without human intervention.</td>
+</tr>
+<tr>
+    <th>Trojan horse</th>
+    <td>A Trojan horse is a type of malware that appears to be a legitimate software application but contains malicious code that can harm a system or steal data.</td>
+</tr>
+<tr>
+    <th>Phishing</th>
+    <td>Phishing is a type of social engineering attack in which an attacker sends a message or email that appears to be from a reputable source in order to trick the recipient into providing sensitive information or clicking on a malicious link.</td>
+</tr>
+<tr>
+    <th>DDoS attack</th>
+    <td>A Distributed Denial of Service (DDoS) attack is a type of cyberattack in which a network of compromised devices is used to flood a website or server with traffic in order to overwhelm it and cause it to become unavailable.</td>
+</tr>
+</table>
+
+<table>
+<tr>
+    <th><h2>Protection</h2></th>
+    <td>Protection refers to the measures taken to safeguard a system or network against potential threats, including security controls, risk management, and incident response.</td>
+</tr>
+<tr>
+    <th>Firewall</th>
+    <td>A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on predefined security rules.</td>
+</tr>
+<tr>
+    <th>Spam filter</th>
+    <td>A spam filter is a software program that identifies and blocks unwanted or unsolicited emails, known as spam.</td>
+</tr>
+<tr>
+    <th>Proxy server</th>
+    <td>A proxy server is a server that acts as an intermediary between a client device and the internet to improve security, performance, and privacy.</td>
+</tr>
+
+<tr>
+    <th>Antivirus software</th>
+    <td>Antivirus software is a type of computer program designed to prevent, detect, and remove malware infections on individual devices or networks.</td>
+  </tr>
+  
+  <tr>
+    <th>Cryptography</th>
+    <td>Cryptography is the practice of securing communication from adversaries by transforming messages into unreadable formats that can only be deciphered by those who possess the appropriate key or knowledge.</td>
+  </tr>
+  
+  <tr>
+    <th>Public key encryption</th>
+    <td>Public key encryption is a type of encryption that uses a pair of keys - one public and one private - to encrypt and decrypt messages, making it possible for two parties to communicate securely without sharing a secret key.</td>
+  </tr>
+</table>
+
+</body>
+</html>
